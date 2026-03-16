@@ -1,4 +1,4 @@
-# 🔥 DIABOLIC PENINSULAR v1.0
+# 🔥 DIABOLIC PENINSULAR V17
 
 [![Version](https://img.shields.io/badge/version-1.0-red)](https://github.com/Condor2026/Diabolic_Peninsular_V17)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
