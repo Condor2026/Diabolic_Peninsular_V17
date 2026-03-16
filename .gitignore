@@ -1,0 +1,7 @@
+*.pyc
+__pycache__/
+*.json
+estado_periodicos_peninsular.json
+diabolic_peninsular.json
+export.json
+export.csv
