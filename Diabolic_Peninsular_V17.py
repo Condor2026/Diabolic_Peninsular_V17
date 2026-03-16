@@ -3,7 +3,7 @@
 
 """
 ================================================================================
-🔍 DIABOLIC PENINSULAR v1.0 - OSINT ANALYTICS PLATFORM
+🔍 DIABOLIC PENINSULAR V17 - OSINT ANALYTICS PLATFORM
 ================================================================================
 📊 Análisis automatizado de patrones delictivos en la España peninsular
 ================================================================================
