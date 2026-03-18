@@ -101,7 +101,7 @@ def cprint(texto, color=None, negrita=False, subrayado=False, parpadeo=False, fo
 # CONFIGURACIÓN - Periódicos de la península (ACTUALIZADOS 2026)
 # ============================================
 
-VERSION = "1.0"
+VERSION = "5.3"
 PUERTO = 5014
 ARCHIVO = 'diabolic_peninsular.json'
 ARCHIVO_ESTADO = 'estado_periodicos_peninsular.json'
