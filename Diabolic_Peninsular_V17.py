@@ -1106,7 +1106,7 @@ if __name__ == '__main__':
     print(f"""
 {Color.ROJO}
 ╔══════════════════════════════════════════════════════════════════╗
-║  🔥 DIABOLIC PENINSULAR v{VERSION} - 62+ PERIÓDICOS ACTIVOS 🔥   ║
+║  🔥 DIABOLIC PENINSULAR v{VERSION} - 62+ PERIÓDICOS ACTIVOS 🔥         ║
 ║  ⚡ España peninsular - OSINT 100% Legal                ⚡       ║
 ║  Andalucía · Cataluña · Madrid · Valencia · Galicia              ║
 ║  País Vasco · Castilla · Aragón · Asturias · Cantabria           ║
