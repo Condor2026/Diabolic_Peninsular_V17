@@ -7,6 +7,7 @@
 ![OSINT](https://img.shields.io/badge/OSINT-Pasivo%20%7C%20Analítico-blueviolet)
 ![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Termux-lightgrey)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![Analytical](https://img.shields.io/badge/Analytical-Yes-blue)
 
 **DIABOLIC Peninsular** es una herramienta OSINT pasiva y analítica que monitoriza **62 periódicos digitales de la España peninsular** (desde Andalucía hasta Galicia, pasando por Madrid, Cataluña, País Vasco, etc.) para detectar, clasificar y visualizar patrones delictivos.  
 No guarda datos personales, solo titulares, fechas y ubicaciones por comunidad autónoma. Filosofía: *"Un gran poder conlleva una gran responsabilidad"*.
