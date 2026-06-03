@@ -2,7 +2,7 @@
 
 DIABOLIC
 
-Este documento describe las direcciones de desarrollo, mejoras planificadas y funcionalidades futuras para **DIABOLIC** (versiones Baleares y Peninsular).  
+Este documento describe las direcciones de desarrollo, mejoras planificadas y funcionalidades futuras para **DIABOLIC** (versiones Baleares, Peninsular, Latam, Canarias y Italia).  
 La hoja de ruta es orientativa y puede cambiar según las necesidades de la comunidad y los principios éticos del proyecto.
 
 ---
