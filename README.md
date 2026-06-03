@@ -1,18 +1,19 @@
 ```markdown
 # 🔥 DIABOLIC PENINSULAR v5.3
 
-![Version](https://img.shields.io/badge/version-5.3-red)
-![License](https://img.shields.io/badge/license-GPLv3-blue)
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-![OSINT](https://img.shields.io/badge/OSINT-Sí-brightgreen)
-![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Termux-lightgrey)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
-![Communities](https://img.shields.io/badge/communities-15%20CCAA-brightgreen)
-![Sources](https://img.shields.io/badge/sources-62%20periódicos-brightgreen)
-![Last Commit](https://img.shields.io/github/last-commit/Condor2026/Diabolic_Peninsular_V17)
-![Code Size](https://img.shields.io/github/languages/code-size/Condor2026/Diabolic_Peninsular_V17)
-![Stars](https://img.shields.io/github/stars/Condor2026/Diabolic_Peninsular_V17?style=social)
-![Forks](https://img.shields.io/github/forks/Condor2026/Diabolic_Peninsular_V17?style=social)
+[![Version](https://img.shields.io/badge/version-5.3-red)
+[![License](https://img.shields.io/badge/license-GPLv3-blue)
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+[![OSINT](https://img.shields.io/badge/OSINT-Sí-brightgreen)
+[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Termux-lightgrey)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+[![Communities](https://img.shields.io/badge/communities-15%20CCAA-brightgreen)
+[![Sources](https://img.shields.io/badge/sources-62%20periódicos-brightgreen)
+[![Last Commit](https://img.shields.io/github/last-commit/Condor2026/Diabolic_Peninsular_V17)
+[![Code Size](https://img.shields.io/github/languages/code-size/Condor2026/Diabolic_Peninsular_V17)
+[![Stars](https://img.shields.io/github/stars/Condor2026/Diabolic_Peninsular_V17?style=social)
+[![Forks](https://img.shields.io/github/forks/Condor2026/Diabolic_Peninsular_V17?style=social)
+[![Web Scraping](https://img.shields.io/badge/Web%20Scraping-Legal-brightgreen)](https://es.wikipedia.org/wiki/Web_scraping)
 
 **DIABOLIC Peninsular** es una herramienta OSINT pasiva y analítica que monitoriza **62 periódicos digitales de la España peninsular** (desde Andalucía hasta Galicia, pasando por Madrid, Cataluña, País Vasco, etc.) para detectar, clasificar y visualizar patrones delictivos.  
 No guarda datos personales, solo titulares, fechas y ubicaciones por comunidad autónoma. Filosofía: *"Un gran poder conlleva una gran responsabilidad"*.
