@@ -1,14 +1,12 @@
-```markdown
+
 # 🔥 DIABOLIC PENINSULAR v5.3
 
-![Version](https://badgen.net/badge/version/5.3/red)
-![License](https://badgen.net/badge/license/GPLv3/blue)
-![Python](https://badgen.net/badge/python/3.8%2B/blue)
-![OSINT](https://badgen.net/badge/OSINT/S%C3%AD/brightgreen)
-![Platform](https://badgen.net/badge/platform/Linux%20%7C%20Termux/lightgrey)
-![PRs Welcome](https://badgen.net/badge/PRs/welcome/brightgreen)
-![Last Commit](https://badgen.net/github/last-commit/Condor2026/Diabolic_Peninsular_V17)
-![Code Size](https://badgen.net/github/code-size/Condor2026/Diabolic_Peninsular_V17)
+![Version](https://img.shields.io/badge/version-5.3-red)
+![License](https://img.shields.io/badge/license-GPLv3-blue)
+![Python](https://img.shields.io/badge/python-3.8+-blue)
+![OSINT](https://img.shields.io/badge/OSINT-Pasivo%20%7C%20Analítico-blueviolet)
+![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Termux-lightgrey)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **DIABOLIC Peninsular** es una herramienta OSINT pasiva y analítica que monitoriza **62 periódicos digitales de la España peninsular** (desde Andalucía hasta Galicia, pasando por Madrid, Cataluña, País Vasco, etc.) para detectar, clasificar y visualizar patrones delictivos.  
 No guarda datos personales, solo titulares, fechas y ubicaciones por comunidad autónoma. Filosofía: *"Un gran poder conlleva una gran responsabilidad"*.
