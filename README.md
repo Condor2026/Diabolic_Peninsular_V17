@@ -1,31 +1,39 @@
-# DIABOLIC Peninsular v5.3
+```markdown
+# 🔥 DIABOLIC PENINSULAR v5.3
 
-[![Version](https://img.shields.io/badge/version-5.3-red)](https://github.com/Condor2026/Diabolic_Peninsular_V17)
-[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Version](https://img.shields.io/badge/version-5.3-red)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Python](https://img.shields.io/badge/python-3.8+-green)](https://python.org)
 [![OSINT](https://img.shields.io/badge/OSINT-Pasivo%20%7C%20Analítico-blueviolet)](https://es.wikipedia.org/wiki/OSINT)
-[![Termux](https://img.shields.io/badge/Termux-Compatible-orange)](https://termux.com)
-[![Linux](https://img.shields.io/badge/Linux-Compatible-lightgrey)](https://linux.org)
+[![GitHub release](https://img.shields.io/github/v/release/Condor2026/Diabolic_Peninsular_V17?include_prereleases&sort=semver)](https://github.com/Condor2026/Diabolic_Peninsular_V17/releases)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Condor2026/Diabolic_Peninsular_V17)](https://github.com/Condor2026/Diabolic_Peninsular_V17/commits/main)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Condor2026/Diabolic_Peninsular_V17)](https://github.com/Condor2026/Diabolic_Peninsular_V17)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![Made with Flask](https://img.shields.io/badge/Made%20with-Flask-black)](https://flask.palletsprojects.com/)
+[![Termux](https://img.shields.io/badge/Termux-Supported-blue)](https://termux.com)
+[![Linux](https://img.shields.io/badge/Linux-Supported-green)](https://www.linux.org)
+[![GitHub stars](https://img.shields.io/github/stars/Condor2026/Diabolic_Peninsular_V17?style=social)](https://github.com/Condor2026/Diabolic_Peninsular_V17/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Condor2026/Diabolic_Peninsular_V17?style=social)](https://github.com/Condor2026/Diabolic_Peninsular_V17/network/members)
 
-**DIABOLIC Peninsular** es una herramienta OSINT pasiva y analítica que **monitoriza 62 periódicos digitales de la España peninsular** (desde Andalucía hasta Galicia, pasando por Madrid, Cataluña, País Vasco, etc.) para detectar, clasificar y visualizar patrones delictivos.  
-No guarda datos personales, solo titulares, fechas y ubicaciones por comunidad autónoma. Filosofía: *“Un gran poder conlleva una gran responsabilidad”*.
+**DIABOLIC Peninsular** es una herramienta OSINT pasiva y analítica que monitoriza **62 periódicos digitales de la España peninsular** (desde Andalucía hasta Galicia, pasando por Madrid, Cataluña, País Vasco, etc.) para detectar, clasificar y visualizar patrones delictivos.  
+No guarda datos personales, solo titulares, fechas y ubicaciones por comunidad autónoma. Filosofía: *"Un gran poder conlleva una gran responsabilidad"*.
 
 ---
 
 ## 📌 Índice
 
-- [¿Qué hace DIABOLIC?](#qué-hace-diabolic)
-- [Características clave](#características-clave)
-- [Tecnología y arquitectura](#tecnología-y-arquitectura)
-- [Instalación y uso](#instalación-y-uso)
-- [Modo terminal (10 comandos)](#modo-terminal-10-comandos)
-- [Modo web interactivo](#modo-web-interactivo)
-- [Fuentes monitorizadas](#fuentes-monitorizadas)
-- [Comunidades cubiertas](#comunidades-cubiertas)
-- [Tipo de OSINT y metodología](#tipo-de-osint-y-metodología)
-- [Ética, legalidad y protección de datos](#ética-legalidad-y-protección-de-datos)
-- [Contribuciones y futuro](#contribuciones-y-futuro)
-- [Licencia](#licencia)
+- [🔍 ¿Qué hace DIABOLIC?](#-qué-hace-diabolic)
+- [⚙️ Características clave](#️-características-clave)
+- [🛠️ Tecnología y arquitectura](#️-tecnología-y-arquitectura)
+- [📥 Instalación y uso](#-instalación-y-uso)
+- [🖥️ Modo terminal (10 comandos)](#️-modo-terminal-10-comandos)
+- [🌐 Modo web interactivo](#-modo-web-interactivo)
+- [🗺️ Fuentes monitorizadas](#️-fuentes-monitorizadas)
+- [📍 Comunidades cubiertas](#-comunidades-cubiertas)
+- [🧠 Tipo de OSINT y metodología](#-tipo-de-osint-y-metodología)
+- [⚖️ Ética, legalidad y protección de datos](#️-ética-legalidad-y-protección-de-datos)
+- [🤝 Contribuciones y futuro](#-contribuciones-y-futuro)
+- [📜 Licencia](#-licencia)
 
 ---
 
@@ -89,51 +97,11 @@ Utiliza una lista amplia de palabras clave, incluyendo jerga local (peta, falcon
 
 ## 📥 Instalación y uso
 
-### Requisitos comunes
+### Requisitos
 - Python 3.8 o superior.
-- `git` (para clonar el repositorio).
-- Conexión a Internet.
+- pip (gestor de paquetes de Python).
 
-### 🔧 Instalación paso a paso
-
-#### 📱 Opción 1: En Termux (Android)
-
-```bash
-# Actualizar paquetes e instalar Python y git
-pkg update && pkg upgrade -y
-pkg install python git -y
-
-# Instalar dependencias Python
-pip install requests beautifulsoup4 flask
-
-# Clonar el repositorio
-git clone https://github.com/Condor2026/Diabolic_Peninsular_V17
-cd Diabolic_Peninsular_V17
-
-# Ejecutar la herramienta
-python Diabolic_Peninsular_V17.py
-```
-
-🐧 Opción 2: En Linux (Debian/Ubuntu y derivados)
-
-```bash
-# Actualizar repositorios e instalar Python3, pip y git
-sudo apt update
-sudo apt install python3 python3-pip git -y
-
-# Instalar dependencias Python
-pip3 install requests beautifulsoup4 flask
-
-# Clonar el repositorio
-git clone https://github.com/Condor2026/Diabolic_Peninsular_V17
-cd Diabolic_Peninsular_V17
-
-# Ejecutar la herramienta
-python3 Diabolic_Peninsular_V17.py
-```
-
-📦 Opción 3: Instalación manual con requirements.txt (cualquier sistema)
-
+### Instalación manual
 ```bash
 git clone https://github.com/Condor2026/Diabolic_Peninsular_V17
 cd Diabolic_Peninsular_V17
@@ -141,128 +109,168 @@ pip install -r requirements.txt
 python Diabolic_Peninsular_V17.py
 ```
 
-💡 Nota: Si prefieres usar python3 en lugar de python, ajusta el comando según tu sistema.
-
----
-
-🖥️ Modo terminal (10 comandos)
-
-Al ejecutar Diabolic_Peninsular_V17.py aparece un menú con las siguientes opciones:
-
-```
-╔════════════════════════════════════════════════════╗
-║           M E N Ú   P R I N C I P A L              ║
-╚════════════════════════════════════════════════════╝
-[1]  Extraer noticias de hoy
-[2]  Extraer noticias de los últimos 7 días
-[3]  Extraer noticias de los últimos 30 días
-[4]  Extraer noticias de los últimos 90 días
-[5]  Analizar tendencias (resumen estadístico)
-[6]  Detectar conexiones entre incidentes
-[7]  Ver últimas noticias almacenadas
-[8]  Exportar a CSV
-[9]  Exportar a JSON
-[10] Iniciar servidor web interactivo
-[0]  Salir
+### Instalación automática (Termux / Linux)
+```bash
+chmod +x install.sh
+./install.sh
 ```
 
-Cada opción ejecuta la acción correspondiente y muestra los resultados en la terminal.
+### Ejecución
+Al arrancar, se mostrará un banner informativo y se preguntará:
+- **1** → Modo terminal (10 comandos).
+- **2** → Modo web (servidor en `http://localhost:5014`).
 
 ---
 
-🌐 Modo web interactivo
+## 🖥️ Modo terminal (10 comandos)
 
-La opción 10 lanza un servidor Flask local (por defecto en http://localhost:5000). Desde el navegador podrás:
+Una vez en el menú principal, puedes ejecutar las siguientes opciones:
 
-· Ver gráficos de barras interactivos.
-· Filtrar por comunidad autónoma y tipo de delito.
-· Consultar la lista de incidentes.
-· Exportar los datos a CSV o JSON con un clic.
+| Comando | Función |
+|---------|---------|
+| `[1]` | 🔍 Buscar noticias (con detección automática de URLs) |
+| `[2]` | 📊 Ver análisis completo (tendencias, distribuciones) |
+| `[3]` | 🔗 Ver conexiones entre incidentes (patrones y bandas) |
+| `[4]` | 📈 Ver evolución mensual |
+| `[5]` | 🌐 Iniciar servidor web |
+| `[6]` | 📰 Ver últimos 20 incidentes |
+| `[7]` | 📥 Exportar datos (JSON/CSV) |
+| `[8]` | 🔍 Verificar periódicos (detector automático de URLs) |
+| `[9]` | 📊 Ver distribución por tipo (con gráfico ASCII) |
+| `[10]` | 🗑️ Salir |
 
----
-
-📰 Fuentes monitorizadas
-
-La herramienta rastrea 62 periódicos digitales de toda la España peninsular. La lista incluye medios de:
-
-· Andalucía (Diario de Sevilla, Granada Hoy, Málaga Hoy, etc.)
-· Madrid (El Mundo, El País, ABC, etc.)
-· Cataluña (La Vanguardia, El Periódico, etc.)
-· Comunidad Valenciana (Las Provincias, Levante-EMV, etc.)
-· País Vasco (El Correo, Deia, etc.)
-· Galicia (La Voz de Galicia, Faro de Vigo, etc.)
-· Castilla y León, Castilla-La Mancha, Extremadura, Murcia, Cantabria, Asturias, Navarra, La Rioja, Aragón, etc.
-
-Nota: La lista completa se puede consultar/editando en config.json.
+Cada opción interactúa con los datos locales y permite explorar los patrones sin necesidad de abrir el navegador.
 
 ---
 
-🗺️ Comunidades cubiertas
+## 🌐 Modo web interactivo
 
-· Andalucía
-· Aragón
-· Asturias
-· Cantabria
-· Castilla-La Mancha
-· Castilla y León
-· Cataluña
-· Comunidad Valenciana
-· Extremadura
-· Galicia
-· La Rioja
-· Madrid
-· Murcia
-· Navarra
-· País Vasco
+Al elegir la opción `[2]` en el arranque, se levanta un servidor Flask local. Desde el navegador puedes:
+
+- Ver estadísticas globales (total, últimos 7/30/90 días).
+- Filtrar por período.
+- Visualizar gráficos de barras con la distribución de incidentes por comunidad autónoma y por tipo.
+- Consultar la lista de los últimos 20 incidentes.
+- Actualizar la base de datos directamente desde la web (botón **ACTUALIZAR**).
+- Exportar a JSON o CSV.
+
+La interfaz está optimizada para dispositivos móviles y escritorio.
 
 ---
 
-🧠 Tipo de OSINT y metodología
+## 🗺️ Fuentes monitorizadas
 
-· OSINT Pasivo: No interactúa con los sistemas de los periódicos más allá de lo que un usuario normal haría.
-· Extracción selectiva: Solo recoge información de sucesos (policial, judicial, seguridad ciudadana).
-· Anonimización: No almacena datos personales de los implicados, solo el lugar, fecha y tipo de delito.
-· Enfoque analítico: No se limita a recopilar noticias, sino que busca patrones que puedan ayudar a entender la delincuencia en España peninsular.
+La herramienta incluye **62 periódicos** de toda la España peninsular, entre ellos:
 
----
+- **Nacionales**: El País, El Mundo, ABC, La Razón, El Periódico, 20 Minutos, El Español, El Confidencial, OK Diario, elDiario.es, Público, Huffington Post.
+- **Andalucía**: Diario de Sevilla, Diario de Cádiz, Málaga Hoy, Granada Hoy, Ideal, Diario Sur, Córdoba, Huelva Información, Diario de Almería, Jaén.
+- **Cataluña**: La Vanguardia, El Periódico (Cataluña), Ara, El Nacional.cat, NacióDigital, Diari de Girona, Segre, Diari de Tarragona.
+- **Madrid**: El Mundo (Madrid), ABC (Madrid), La Razón (Madrid), 20 Minutos Madrid, Telemadrid.
+- **Comunidad Valenciana**: Levante-EMV, Las Provincias, Información (Alicante), El Periódico Mediterráneo.
+- **Galicia**: La Voz de Galicia, Faro de Vigo, El Correo Gallego, Diario de Pontevedra.
+- **País Vasco**: El Correo, Diario Vasco, Deia.
+- **Castilla y León**: El Norte de Castilla, Diario de León, Diario de Burgos, La Gaceta de Salamanca.
+- **Aragón**: Heraldo de Aragón, El Periódico de Aragón.
+- **Asturias**: La Nueva España, El Comercio.
+- **Cantabria**: El Diario Montañés.
+- **La Rioja**: La Rioja.
+- **Murcia**: La Verdad, La Opinión de Murcia.
+- **Navarra**: Diario de Navarra, Noticias de Navarra.
+- **Extremadura**: Hoy (Extremadura), El Periódico Extremadura.
 
-⚖️ Ética, legalidad y protección de datos
-
-DIABOLIC respeta estrictamente la legalidad española y europea:
-
-· Solo accede a contenido público y no requiere autenticación.
-· No almacena información personal (nombres, DNI, etc.).
-· El código es abierto y transparente.
-· Se recomienda utilizar la herramienta únicamente con fines académicos, periodísticos o de investigación criminal legítima.
-
-⚠️ ADVERTENCIA LEGAL
-Esta herramienta es exclusivamente para fines educativos y de investigación legítima.
-No debe utilizarse para acosar, doxear, realizar actividades ilegales o violar la privacidad de las personas.
-El autor no se responsabiliza del mal uso. El usuario es el único responsable de cumplir con las leyes de su país.
-
----
-
-🤝 Contribuciones y futuro
-
-Las contribuciones son bienvenidas. Puedes:
-
-· Reportar errores en Issues.
-· Ampliar la lista de periódicos.
-· Mejorar el detector automático de URLs.
-· Añadir nuevas categorías de delitos.
-· Optimizar el análisis de conexiones.
+El detector automático de URLs se encarga de corregir cambios en las direcciones.
 
 ---
 
-📜 Licencia
+## 📍 Comunidades cubiertas
 
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
+- Andalucía
+- Aragón
+- Asturias
+- Cantabria
+- Castilla y León
+- Castilla-La Mancha
+- Cataluña
+- Comunidad de Madrid
+- Comunidad Valenciana
+- Extremadura
+- Galicia
+- La Rioja
+- Murcia
+- Navarra
+- País Vasco
+
+Además, los periódicos nacionales permiten rastrear noticias que afectan a todo el territorio peninsular.
 
 ---
 
-🙏 Agradecimientos
+## 🧠 Tipo de OSINT y metodología
 
-· BeautifulSoup4 – scraping.
-· Flask – interfaz web.
-· Inspiración: proyectos OSINT como Sherlock, Maigret.
-· Comunidad de investigación OSINT en España.
+DIABOLIC se clasifica como **OSINT pasivo y analítico**:
+
+- **Pasivo**: porque no interactúa con los sistemas de los periódicos más allá de las peticiones HTTP que haría un usuario normal. No realiza inyecciones, no vulnera accesos, no utiliza credenciales.
+- **Analítico**: porque no se limita a recopilar información; procesa los datos para extraer **patrones geográficos (comunidades autónomas), temporales (evolución diaria, mensual) y relacionales (conexiones entre incidentes)**.
+
+### Flujo de trabajo
+1. **Adquisición**: se descargan las páginas de sucesos de cada periódico respetando tiempos de espera y user-agents.
+2. **Parseo**: se extraen títulos, fechas y se detecta la ubicación (comunidad autónoma) mediante comparación de palabras clave.
+3. **Clasificación**: se etiqueta cada incidente con un tipo de delito (robo, estafa, etc.) basado en palabras clave.
+4. **Almacenamiento**: se guardan los metadatos en un archivo JSON local, sin datos personales.
+5. **Análisis**: se generan estadísticas, patrones temporales y conexiones.
+6. **Visualización**: se muestran los resultados en terminal o web.
+
+### Detección de conexiones (opción 3)
+- Agrupa incidentes por **tipo + comunidad** en los últimos 30 días.
+- Si hay **3 o más** incidentes del mismo tipo en la misma comunidad, los muestra como un patrón y calcula la frecuencia (incidentes/día).
+- Busca palabras clave de modus operandi (`alunicero`, `butrón`, `escalo`, etc.) y agrupa incidentes que compartan la misma técnica, sugiriendo posibles bandas.
+
+---
+
+## ⚖️ Ética, legalidad y protección de datos
+
+### Cumplimiento normativo
+- **RGPD / LOPDGDD**: DIABOLIC no trata datos personales. Solo almacena metadatos (titular, fecha, comunidad, tipo, fuente). Por tanto, queda fuera del ámbito de aplicación de estas leyes.
+- **Propiedad intelectual**: No republica el contenido íntegro de las noticias; solo extrae titulares y metadatos. Las peticiones son las mismas que haría un lector humano, respetando `robots.txt` y rate limiting.
+
+### Principios éticos
+- **Transparencia**: código abierto, cualquier persona puede auditar qué hace y qué guarda.
+- **No vigilancia**: no perfila personas ni almacena información que pueda identificar a individuos.
+- **Responsabilidad**: el usuario es el único responsable del uso que dé a la herramienta. El banner de inicio incluye la advertencia y la filosofía Spiderman.
+
+### Exención de responsabilidad
+La herramienta se proporciona “tal cual”, sin garantías de funcionamiento ininterrumpido. Cualquier modificación que introduzca funcionalidades lesivas (recogida de datos personales, vigilancia encubierta) es responsabilidad exclusiva de quien la realice.
+
+---
+
+## 🤝 Contribuciones y futuro
+
+Las contribuciones son bienvenidas siempre que respeten la filosofía ética del proyecto. Puedes:
+
+- Reportar errores o fuentes caídas.
+- Sugerir mejoras en la detección de patrones.
+- Añadir nuevas fuentes de noticias públicas (respetando siempre los términos de uso).
+- Traducir la documentación.
+
+Para el futuro se contemplan:
+- Integración con mapas (Leaflet) para visualización geográfica.
+- Alertas en tiempo real cuando se detecte un patrón anómalo.
+- Soporte para RSS de ayuntamientos y boletines oficiales.
+
+---
+
+## 📜 Licencia
+
+Este proyecto está bajo la **GNU General Public License v3.0 (GPLv3)**.  
+Esto significa que:
+
+- Puedes usar, estudiar, compartir y modificar el software libremente.
+- Si distribuyes versiones modificadas, **debes hacerlo bajo la misma licencia**.
+- **No puedes convertir el software en propietario**; cualquier obra derivada debe permanecer de código abierto.
+- El software se proporciona “tal cual”, sin garantías (consulta el archivo [`LICENSE`](LICENSE) para más detalles).
+
+Consulta el archivo `LICENSE` para el texto completo de la licencia.
+
+---
+
+⭐ **Si DIABOLIC te resulta útil, considera dejar una estrella en el repositorio y compartir el proyecto. ¡Juntos hacemos el OSINT más ético y accesible!**
+```
