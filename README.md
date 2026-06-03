@@ -1,19 +1,19 @@
 ```markdown
 # 🔥 DIABOLIC PENINSULAR v5.3
 
-[![Version](https://img.shields.io/badge/version-5.3-red)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Python](https://img.shields.io/badge/python-3.8+-green)](https://python.org)
-[![OSINT](https://img.shields.io/badge/OSINT-Pasivo%20%7C%20Analítico-blueviolet)](https://es.wikipedia.org/wiki/OSINT)
-[![GitHub release](https://img.shields.io/github/v/release/Condor2026/Diabolic_Peninsular_V17?include_prereleases&sort=semver)](https://github.com/Condor2026/Diabolic_Peninsular_V17/releases)
-[![GitHub last commit](https://img.shields.io/github/last-commit/Condor2026/Diabolic_Peninsular_V17)](https://github.com/Condor2026/Diabolic_Peninsular_V17/commits/main)
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Condor2026/Diabolic_Peninsular_V17)](https://github.com/Condor2026/Diabolic_Peninsular_V17)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Made with Flask](https://img.shields.io/badge/Made%20with-Flask-black)](https://flask.palletsprojects.com/)
-[![Termux](https://img.shields.io/badge/Termux-Supported-blue)](https://termux.com)
-[![Linux](https://img.shields.io/badge/Linux-Supported-green)](https://www.linux.org)
-[![GitHub stars](https://img.shields.io/github/stars/Condor2026/Diabolic_Peninsular_V17?style=social)](https://github.com/Condor2026/Diabolic_Peninsular_V17/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Condor2026/Diabolic_Peninsular_V17?style=social)](https://github.com/Condor2026/Diabolic_Peninsular_V17/network/members)
+![Version](https://img.shields.io/badge/version-5.3-red)
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+![Python](https://img.shields.io/badge/python-3.8+-green)](https://python.org)
+![OSINT](https://img.shields.io/badge/OSINT-Pasivo%20%7C%20Analítico-blueviolet)](https://es.wikipedia.org/wiki/OSINT)
+![GitHub release](https://img.shields.io/github/v/release/Condor2026/Diabolic_Peninsular_V17?include_prereleases&sort=semver)](https://github.com/Condor2026/Diabolic_Peninsular_V17/releases)
+![GitHub last commit](https://img.shields.io/github/last-commit/Condor2026/Diabolic_Peninsular_V17)](https://github.com/Condor2026/Diabolic_Peninsular_V17/commits/main)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Condor2026/Diabolic_Peninsular_V17)](https://github.com/Condor2026/Diabolic_Peninsular_V17)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+![Made with Flask](https://img.shields.io/badge/Made%20with-Flask-black)](https://flask.palletsprojects.com/)
+![Termux](https://img.shields.io/badge/Termux-Supported-blue)](https://termux.com)
+![Linux](https://img.shields.io/badge/Linux-Supported-green)](https://www.linux.org)
+![GitHub stars](https://img.shields.io/github/stars/Condor2026/Diabolic_Peninsular_V17?style=social)](https://github.com/Condor2026/Diabolic_Peninsular_V17/stargazers)
+![GitHub forks](https://img.shields.io/github/forks/Condor2026/Diabolic_Peninsular_V17?style=social)](https://github.com/Condor2026/Diabolic_Peninsular_V17/network/members)
 
 **DIABOLIC Peninsular** es una herramienta OSINT pasiva y analítica que monitoriza **62 periódicos digitales de la España peninsular** (desde Andalucía hasta Galicia, pasando por Madrid, Cataluña, País Vasco, etc.) para detectar, clasificar y visualizar patrones delictivos.  
 No guarda datos personales, solo titulares, fechas y ubicaciones por comunidad autónoma. Filosofía: *"Un gran poder conlleva una gran responsabilidad"*.
