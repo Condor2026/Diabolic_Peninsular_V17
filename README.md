@@ -112,7 +112,8 @@ Si no quieres instalar Python, puedes descargar el APK ya compilado:
 5. Instala el APK (permite instalación de fuentes desconocidas).
 6. Abre la app, escribe `diabolic` y ya puedes usar la herramienta.
 
-> ⚠️ La app se ejecuta en modo terminal. No tiene interfaz gráfica propia.
+> ⚠️ La app se ejecuta en modo terminal. Para ver la interfaz web, dentro del menú pulsa `[5]` y abre el navegador en `http://localhost:5014`.
+
 
 ### Requisitos
 - Python 3.8 o superior.
