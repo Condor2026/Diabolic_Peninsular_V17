@@ -7,10 +7,12 @@ version = 5.3
 source.dir = .
 requirements = python3,kivy,requests,bs4,flask
 android.permissions = INTERNET
-android.api = 30
+android.api = 31
 android.minapi = 21
 android.arch = arm64-v8a
 icon.filename = Diabolic_Peninsular_Logo.png
 
 [buildozer]
 log_level = 1
+android.ndk = 23b
+android.sdk = 30
