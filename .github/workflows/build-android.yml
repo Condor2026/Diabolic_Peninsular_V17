@@ -20,17 +20,30 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y zip unzip openjdk-17-jdk
+          sudo apt-get install -y zip unzip openjdk-17-jdk wget
           pip install buildozer cython
+      
+      - name: Install Android SDK
+        run: |
+          wget https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+          unzip commandlinetools-linux-11076708_latest.zip -d android-sdk
+          mkdir -p android-sdk/cmdline-tools
+          mv android-sdk/cmdline-tools android-sdk/cmdline-tools/latest
+          export ANDROID_SDK_ROOT=$PWD/android-sdk
+          export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin
+          echo "ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT" >> $GITHUB_ENV
+          echo "PATH=$PATH" >> $GITHUB_ENV
       
       - name: Accept Android SDK licenses
         run: |
-          mkdir -p ~/.android
-          echo "✔️ Accepting Android licenses"
+          export ANDROID_SDK_ROOT=$PWD/android-sdk
+          export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin
           yes | sdkmanager --licenses || true
       
       - name: Build APK
         run: |
+          export ANDROID_SDK_ROOT=$PWD/android-sdk
+          export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin
           buildozer android debug deploy run
       
       - name: Upload APK
