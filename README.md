@@ -1,7 +1,7 @@
 
 # 🔥 DIABOLIC PENINSULAR v5.3
 
-
+![Logo](Diabolic_Peninsular_Logo.png)
 
 ![Version](https://img.shields.io/badge/version-5.3-red)
 ![License](https://img.shields.io/badge/license-GPLv3-blue)
