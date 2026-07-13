@@ -101,6 +101,19 @@ Utiliza una lista amplia de palabras clave, incluyendo jerga local (peta, falcon
 
 ## 📥 Instalación y uso
 
+## 📱 Descargar APK (Android)
+
+Si no quieres instalar Python, puedes descargar el APK ya compilado:
+
+1. Ve a la pestaña **Actions** de este repositorio.
+2. Haz clic en la última ejecución del workflow `Build Android APK`.
+3. Baja hasta **Artifacts** y descarga `Diabolic-APK`.
+4. Descomprime el ZIP y copia el archivo `.apk` a tu móvil.
+5. Instala el APK (permite instalación de fuentes desconocidas).
+6. Abre la app, escribe `diabolic` y ya puedes usar la herramienta.
+
+> ⚠️ La app se ejecuta en modo terminal. No tiene interfaz gráfica propia.
+
 ### Requisitos
 - Python 3.8 o superior.
 - pip (gestor de paquetes de Python).
